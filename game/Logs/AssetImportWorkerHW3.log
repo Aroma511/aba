@@ -1,0 +1,596 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-infon" at "2026-09-07T13:19:47.8416859Z"
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 65409 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-07T13:19:47Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 38476, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              df47b0a84a4e4d45a3a5b13be280c7d6
+  Correlation Id:          7a1d020b1f4edab72d2c03f4140e78cc
+  External correlation Id: 8020428534886457709
+  Machine Id:              CMsiS5hNir0F7XcR/GX25FLoSqs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-infon" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-infon-notifications" at "2026-09-07T13:19:47.8916281Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/infon/game
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+60872
+-parentPid
+880
+-analyticsCloudUserId
+9072351871076
+-analyticsCloudProjectId
+87c76f71-6dd4-4311-8ff4-0c90b810dca2
+-analyticsLocalProjectId
+ef2a244ed2176564a9d86b1e92fcee3a
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+f8aeeac0e2236d0c20cc1bbc895de4b56a8206ca
+-cbmMachineId
+CMsiS5hNir0F7XcR/GX25FLoSqs=
+-licensingIpc
+LicenseClient-infon
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+23
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/infon/game
+C:/Users/infon/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [1204]  Target information:
+
+Player connection [1204]  * "[IP] 192.168.0.51 [Port] 0 [Flags] 2 [Guid] 2925070766 [EditorId] 2925070766 [Version] 1048832 [Id] WindowsEditor(7,admin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1204] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 23
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 63c88d4e0c27e67db6add2ca1aa6b22f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.43 ms, found 5 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/infon/game/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:          NVIDIA
+    VRAM:            16109 MB
+    App VRAM Budget: 15341 MB
+    Driver:          32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003570 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (157ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (151ms)
+		TypeCache.Refresh (285ms)
+			TypeCache.ScanAssembly (268ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (542ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 9072351871076-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.85 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 2232ms
+	BeginReloadAssembly (275ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (823ms)
+		LoadAssemblies (448ms)
+		TypeCache.Refresh (231ms)
+			TypeCache.ScanAssembly (211ms)
+		AnalyzeDomain (91ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1015ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (290ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7511 unused Assets / (6.6 MB). Loaded Objects now: 8479.
+Memory consumption went from 366.4 MB to 359.8 MB.
+Total: 14.481000 ms (FindLiveObjects: 1.383200 ms CreateObjectMapping: 0.787600 ms MarkObjects: 9.037300 ms  DeleteObjects: 2.984100 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:58.9206781Z
+  Time since last request: 327597.02869200002169 seconds.
+  importAddress: GUID: 15d3c315af8faf2498573371308b9d3e - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Joints@4x.png - Importer: PreviewImporter
+Importing 'GUID: 15d3c315af8faf2498573371308b9d3e - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Joints@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15d3c315af8faf2498573371308b9d3e' -> (Import Result ID: 'bf2aa13488dd719f3705300b05f61c5d') in 0.093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af00e5fb33aa6c85443f4c88438bb048 DependenciesID=c3ee73dd980100ad63d78a7c1bb06572 StaticDependenciesID=436b94dc274c30ce321b47adb1ed2933 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.0332788Z
+  Time since last request: 0.0000255 seconds.
+  importAddress: GUID: 42f4b048501996743958df91513f824a - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Copy.png - Importer: PreviewImporter
+Importing 'GUID: 42f4b048501996743958df91513f824a - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Copy.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 42f4b048501996743958df91513f824a' -> (Import Result ID: 'f8f35b596b342570b72e51524dc37d95') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=148697ba556f17e6637a396ced2d0e6f DependenciesID=e426251dd624e0a7b0e0b1f68c2837a5 StaticDependenciesID=0b77737b1b99285c918c06a536cc47bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.0672424Z
+  Time since last request: 0.0008219 seconds.
+  importAddress: GUID: 334b0c5a2da656f4a9d2fe6b658cfd68 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Pose@3x.png - Importer: PreviewImporter
+Importing 'GUID: 334b0c5a2da656f4a9d2fe6b658cfd68 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Pose@3x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 334b0c5a2da656f4a9d2fe6b658cfd68' -> (Import Result ID: '3ef1822a29aa789e149a915a7bccc5c2') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58a39cb8936faab9fa471b3f0159f8e9 DependenciesID=8b841f17be87b07d6689eb19ebf249d3 StaticDependenciesID=f83209a5d267248429611b085e31bcda 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.1066363Z
+  Time since last request: 0.0005905 seconds.
+  importAddress: GUID: 4adeaf2d2b1c7417e89f026626d8264f - Path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png - Importer: PreviewImporter
+Importing 'GUID: 4adeaf2d2b1c7417e89f026626d8264f - Path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4adeaf2d2b1c7417e89f026626d8264f' -> (Import Result ID: 'd73e5125ed0fe2dd297fe357ad6a3504') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf84dd70fbf9ffcfee17907f6fabc4bd DependenciesID=519b7f06cc2383adf5839608dc17b183 StaticDependenciesID=9fe81c83b559e6aa3bbd15e70bb18e14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.1456301Z
+  Time since last request: 0.0007696 seconds.
+  importAddress: GUID: 748ae8b33df036b46a86e0387f1602cf - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@4x.png - Importer: PreviewImporter
+Importing 'GUID: 748ae8b33df036b46a86e0387f1602cf - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 748ae8b33df036b46a86e0387f1602cf' -> (Import Result ID: 'b200e0b5520c508ccd35689df246380c') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bfa8da487fc0d755497912d6a1dfa6c DependenciesID=fd42dcfa23470e74326017d42e6d687a StaticDependenciesID=49b25ab3c1519c5cd89b1ff57b2db5d5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.1727292Z
+  Time since last request: 0.0021502 seconds.
+  importAddress: GUID: ebe73ca9363db456bacf42c025bb4847 - Path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png - Importer: PreviewImporter
+Importing 'GUID: ebe73ca9363db456bacf42c025bb4847 - Path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ebe73ca9363db456bacf42c025bb4847' -> (Import Result ID: 'b09838a4340ae341cfc6de9a43a4e0dd') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f43aeacd8d471c98790e4a253dcf793 DependenciesID=92ae47433e0aad35d8f227dd30fdd6f9 StaticDependenciesID=dfa85c41a512ea74c0e69541a9461424 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.1977262Z
+  Time since last request: 0.0008432 seconds.
+  importAddress: GUID: 6cc5103edc9f0dd4f80e8274c73dfeac - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Copy@2x.png - Importer: PreviewImporter
+Importing 'GUID: 6cc5103edc9f0dd4f80e8274c73dfeac - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Copy@2x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6cc5103edc9f0dd4f80e8274c73dfeac' -> (Import Result ID: 'ebc34e44dd9167cbd6e71620216cef76') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2785e16f64bceae1bd5cbd123ff57f DependenciesID=36a0dbf2bd53385b3b50f135bcc065ed StaticDependenciesID=b1694189db9a5ad485e2b4b0d40e1ba7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:21:59.2221855Z
+  Time since last request: 0.0008067 seconds.
+  importAddress: GUID: 5df5eccb22181f040836da1ea19743e8 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Pose@2x.png - Importer: PreviewImporter
+Importing 'GUID: 5df5eccb22181f040836da1ea19743e8 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/d_Edit_Pose@2x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5df5eccb22181f040836da1ea19743e8' -> (Import Result ID: '204b7e35715093ec153c1cc78b54db44') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6dac13dec5c28d36f7b6d108f2774ea6 DependenciesID=3e574a8d9af6ca23abe2a300c6935e52 StaticDependenciesID=f5d8a6ca1dfd75b27ab4331fba69f97c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:00.1200823Z
+  Time since last request: 0.8757832 seconds.
+  importAddress: GUID: 0ccc508108fa6ed4fa11b4a467d7f609 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png - Importer: PreviewImporter
+Importing 'GUID: 0ccc508108fa6ed4fa11b4a467d7f609 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0ccc508108fa6ed4fa11b4a467d7f609' -> (Import Result ID: 'f5965b9e0c826070b8acdcf29e6cc7f9') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcd96f34d153f71b56c4e02b275021b1 DependenciesID=a198e61a48fce32cd3f7803d92497e9d StaticDependenciesID=61fb0d02f1467cf0ff8cc255f23b2659 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:00.9417302Z
+  Time since last request: 0.8005024 seconds.
+  importAddress: GUID: 17fa84703485d314b8d6b5216987d4b1 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@3x.png - Importer: PreviewImporter
+Importing 'GUID: 17fa84703485d314b8d6b5216987d4b1 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@3x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 17fa84703485d314b8d6b5216987d4b1' -> (Import Result ID: 'fcfe5713f7f764fdf50e8dcbcbbc1e6b') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86065574c1d141e299cd3d79e56e884e DependenciesID=d035a52784bac9805999621fabe65a1c StaticDependenciesID=2225c391988b49c2e0890c1d57292fab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:01.0552809Z
+  Time since last request: 0.0907889 seconds.
+  importAddress: GUID: 25096ce515c063c48a2bd6b108c95912 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@2x.png - Importer: PreviewImporter
+Importing 'GUID: 25096ce515c063c48a2bd6b108c95912 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode@2x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 25096ce515c063c48a2bd6b108c95912' -> (Import Result ID: '8abf0861680496a71f75441ff68577ea') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b79cf2e89385bced0f88f01f0863905 DependenciesID=e54136c9bae44f8f12c55cd5cf61b3e9 StaticDependenciesID=7af99db5c602efacd50d466aec2463da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:01.3019623Z
+  Time since last request: 0.2236021 seconds.
+  importAddress: GUID: d4d64a6cd9624c34a815dd79fb2a20a4 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode.png - Importer: PreviewImporter
+Importing 'GUID: d4d64a6cd9624c34a815dd79fb2a20a4 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/character_Mode.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d4d64a6cd9624c34a815dd79fb2a20a4' -> (Import Result ID: '9c9ae7ee4b4c560b31aca92a7c8d1cc9') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e2213cdfc82327100cf68df445ba77a DependenciesID=3a357704618ec0d4cc896a61c4e87637 StaticDependenciesID=6b8d7b08511b0fda0b857b70b43457c3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:01.7232526Z
+  Time since last request: 0.396429 seconds.
+  importAddress: GUID: ee8ce5cd9c0883f4182b5cfd43cfd7fe - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/buttonssosigninunity@2x.png - Importer: PreviewImporter
+Importing 'GUID: ee8ce5cd9c0883f4182b5cfd43cfd7fe - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/buttonssosigninunity@2x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ee8ce5cd9c0883f4182b5cfd43cfd7fe' -> (Import Result ID: '814c54b4323c24190c90181e9ae4e861') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46c2b17f90cd9144145ff9b7b42a42ad DependenciesID=64a0ad987a43b14851672784a11d4b26 StaticDependenciesID=fd335a5bb85a5e742990e0f7c66206b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:01.9604576Z
+  Time since last request: 0.2128939 seconds.
+  importAddress: GUID: dda6504e0e7d670488e2fee625f7da02 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/buttonhome.png - Importer: PreviewImporter
+Importing 'GUID: dda6504e0e7d670488e2fee625f7da02 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/buttonhome.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dda6504e0e7d670488e2fee625f7da02' -> (Import Result ID: 'a3ab97152203be022c4949ea82bea227') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9a2d9c875187e4fdd1c51117e98b469 DependenciesID=4958fc8506663f05f68685e6f3ee869c StaticDependenciesID=5039221f8f7f4ce2c67c4d144b900f7f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.3540574Z
+  Time since last request: 0.372002 seconds.
+  importAddress: GUID: c7aa62ae78ffca0498c89e5f45f94c0e - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@4x.png - Importer: PreviewImporter
+Importing 'GUID: c7aa62ae78ffca0498c89e5f45f94c0e - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c7aa62ae78ffca0498c89e5f45f94c0e' -> (Import Result ID: 'd962f5f1e326d0ef951637372b2f29d7') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd9c877d9d8cb7521b9fd55d9f2ce82a DependenciesID=6d086131fb15845cbf085856da4a2d43 StaticDependenciesID=5f7fb339fc1897ee84d5089fa4c1f44e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.3790576Z
+  Time since last request: 0.0031236 seconds.
+  importAddress: GUID: cee9dbe90b270c944ae1dabf41c93b10 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@3x.png - Importer: PreviewImporter
+Importing 'GUID: cee9dbe90b270c944ae1dabf41c93b10 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@3x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cee9dbe90b270c944ae1dabf41c93b10' -> (Import Result ID: '0d71c8e66dfa5482a09fe4ef98933916') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5686e0c42aafcb10d8d8f8a4fd525336 DependenciesID=805ea064b517e87757d380bb4220b0a4 StaticDependenciesID=16534329eb4ff875bc0d596054864d4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.7492987Z
+  Time since last request: 0.3471588 seconds.
+  importAddress: GUID: 7395bf0bc3cc40e4ab2dda5ec6832261 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@2x.png - Importer: PreviewImporter
+Importing 'GUID: 7395bf0bc3cc40e4ab2dda5ec6832261 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone_Influence@2x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7395bf0bc3cc40e4ab2dda5ec6832261' -> (Import Result ID: '38e0c49068d62940ec33303b6a34ed75') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c954e47ff832291fd6583de12df0110 DependenciesID=d06bbd71bfc0f29ade61babd9f3b5d6c StaticDependenciesID=99ca5f385cb85f8f99192099bdaaa1d2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.7737455Z
+  Time since last request: 0.0006269 seconds.
+  importAddress: GUID: 9125c204f566db048a92ebcb64d9d14a - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone@4x.png - Importer: PreviewImporter
+Importing 'GUID: 9125c204f566db048a92ebcb64d9d14a - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9125c204f566db048a92ebcb64d9d14a' -> (Import Result ID: '07edb4ebde7448ad9c4debf415a383d3') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a459dc0c918f7e17538819cea5575ffb DependenciesID=c0b66d9f843ade7006af9d96ed9c3e9b StaticDependenciesID=afe86556aec3ff179ad1be034c0c13f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.8294856Z
+  Time since last request: 0.0336195 seconds.
+  importAddress: GUID: 76beef9fdae7b48468ddf07d0400a374 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone@3x.png - Importer: PreviewImporter
+Importing 'GUID: 76beef9fdae7b48468ddf07d0400a374 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone@3x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 76beef9fdae7b48468ddf07d0400a374' -> (Import Result ID: '8231fd9a75ff29de1024d0c8e78109f7') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b3f715447d1fa17b1fb6f87e35028e4 DependenciesID=1a972837e80c678177d555e0e309d9bb StaticDependenciesID=7bc8a65810abc47f9ca88ed58b5b2dc5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:02.8754776Z
+  Time since last request: 0.0221261 seconds.
+  importAddress: GUID: 62ce01ddca719d34ea9648c586a7cc94 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone.png - Importer: PreviewImporter
+Importing 'GUID: 62ce01ddca719d34ea9648c586a7cc94 - Path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Bone.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 62ce01ddca719d34ea9648c586a7cc94' -> (Import Result ID: '793b8695ac6a5dd79aae48734b25c770') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=764b5890ecc3c0ee5812f10a8b5f3343 DependenciesID=91d4a66d576bac691231f387b721632d StaticDependenciesID=f0ef94c6bfdbf7206374c59675faed24 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.2112627Z
+  Time since last request: 0.3128086 seconds.
+  importAddress: GUID: af5dbec545ddf41e7b15fef8a3cfb75b - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/ArrowCaretRight.png - Importer: PreviewImporter
+Importing 'GUID: af5dbec545ddf41e7b15fef8a3cfb75b - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/ArrowCaretRight.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: af5dbec545ddf41e7b15fef8a3cfb75b' -> (Import Result ID: 'f515d39c372a69764a23c4d38ada6d1b') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c92579da682e1aba426438011ebbfaed DependenciesID=530fb80c22c645ce9844495bc5734e35 StaticDependenciesID=fcbd331e53e7d02ca3e8aa03b02be310 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.2593855Z
+  Time since last request: 0.023106 seconds.
+  importAddress: GUID: 1c16a099b53fd4712b2d4cdb8fecd9f8 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/ArrowCaretLeft.png - Importer: PreviewImporter
+Importing 'GUID: 1c16a099b53fd4712b2d4cdb8fecd9f8 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Images/ArrowCaretLeft.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1c16a099b53fd4712b2d4cdb8fecd9f8' -> (Import Result ID: '758ea945ce9cc552ff1488bb059f0d69') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6b1e65811dfd606e07928b232a06583 DependenciesID=4a7241814f6c05cfbb5228b2ed2812f5 StaticDependenciesID=e9b9f3b53636fe55ddec27c0b384c010 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.3090364Z
+  Time since last request: 0.0271359 seconds.
+  importAddress: GUID: 5caee0ba7342b4b2cacdbe0e6030c7b0 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@128.png - Importer: PreviewImporter
+Importing 'GUID: 5caee0ba7342b4b2cacdbe0e6030c7b0 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5caee0ba7342b4b2cacdbe0e6030c7b0' -> (Import Result ID: 'f489d1afe1c69ce4c6f12013044b4d7f') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7274f7518fe691410debecd11c26b847 DependenciesID=99b52c9bafc28895710849e6afd5b275 StaticDependenciesID=f825b8030ec22b931b8f5e481de2536c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.3602806Z
+  Time since last request: 0.0264158 seconds.
+  importAddress: GUID: 35f90efdb1e6d4fb29c4108de82bf1b2 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@32.png - Importer: PreviewImporter
+Importing 'GUID: 35f90efdb1e6d4fb29c4108de82bf1b2 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@32.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 35f90efdb1e6d4fb29c4108de82bf1b2' -> (Import Result ID: '06ac47883e70c3a864b41c657b8f76c5') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=029c07e2b4de853a42dcf37d2de8451e DependenciesID=6215c8bed909b50060f4a0b11ed6d098 StaticDependenciesID=bfbf468c9965874a8c4b11a66213e02b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.9440199Z
+  Time since last request: 0.5598251 seconds.
+  importAddress: GUID: d2ddd27a2c7de4ad99b3d8c9d00e4265 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin On@128.png - Importer: PreviewImporter
+Importing 'GUID: d2ddd27a2c7de4ad99b3d8c9d00e4265 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin On@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d2ddd27a2c7de4ad99b3d8c9d00e4265' -> (Import Result ID: '40f9391c9ac8c873fb4118eaec80f007') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca498c773960cc56d69f35c804c04a98 DependenciesID=3fa312a4ff0a6aa291cb087e100d9535 StaticDependenciesID=d7ca5582b7d66d0efbfc4b22fb5ab1e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:03.9934022Z
+  Time since last request: 0.0243836 seconds.
+  importAddress: GUID: c48d0173f2d2c40679bc236de8551a69 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin On@32.png - Importer: PreviewImporter
+Importing 'GUID: c48d0173f2d2c40679bc236de8551a69 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin On@32.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c48d0173f2d2c40679bc236de8551a69' -> (Import Result ID: '0d3ecbd9f592ed0d100c7d953898e4d6') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e8aad0a603c43e3cc2c23bce79f5f2e DependenciesID=798a0bda70590fa56016ffa0b16979dd StaticDependenciesID=a9d14d0d6b8524f2072f9ec4cfab449a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.0162068Z
+  Time since last request: 0.000588 seconds.
+  importAddress: GUID: 5624c7cbaca684b9faada94188a2e7a1 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin.png - Importer: PreviewImporter
+Importing 'GUID: 5624c7cbaca684b9faada94188a2e7a1 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5624c7cbaca684b9faada94188a2e7a1' -> (Import Result ID: '285de698420134ca53cb896d616f0ca2') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81dc4cc33b1fae9af719b9de0f9a359b DependenciesID=93ea943bcd1ff172d3534f9a2624fc0f StaticDependenciesID=239ce97412950bd97604d8aa7c6244c8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.3795543Z
+  Time since last request: 0.3425702 seconds.
+  importAddress: GUID: ce009ee7a4fb24c1da2f07064894e6c4 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver@128.png - Importer: PreviewImporter
+Importing 'GUID: ce009ee7a4fb24c1da2f07064894e6c4 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ce009ee7a4fb24c1da2f07064894e6c4' -> (Import Result ID: 'e7f2387642fa998dc99e7bc6cb8abac8') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e04a1e8bed458692375c0b53abe2d77 DependenciesID=3fe0b8aaa9656a5bae27079c755c5757 StaticDependenciesID=74f169a361319fa4aa8919c0914e499b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.4057515Z
+  Time since last request: 0.0031456 seconds.
+  importAddress: GUID: fa557b89ecf3d44f2b6cae783ce09806 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On@256.png - Importer: PreviewImporter
+Importing 'GUID: fa557b89ecf3d44f2b6cae783ce09806 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On@256.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fa557b89ecf3d44f2b6cae783ce09806' -> (Import Result ID: '085a9b91cf527bbcb5583643922ee3b4') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc91e58146bd6b26158b867abea2fee1 DependenciesID=6dd945c84a98d15dece906b5ab632ad9 StaticDependenciesID=568e72504fb4a33241754b91379a0722 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.4656032Z
+  Time since last request: 0.0329816 seconds.
+  importAddress: GUID: 5c838469e8ab742f081032f02a904a31 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On@128.png - Importer: PreviewImporter
+Importing 'GUID: 5c838469e8ab742f081032f02a904a31 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c838469e8ab742f081032f02a904a31' -> (Import Result ID: 'e4235c599c62bdb0a38785f4cab124a2') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de654be6034d11e802bb9ca3601e49b9 DependenciesID=0a5be4ea14ee93d6de7aee1065e5509e StaticDependenciesID=06edb9ec6b49a4c1249a4ef945fe3176 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.4940408Z
+  Time since last request: 0.0005415 seconds.
+  importAddress: GUID: db2b3974aac164565bda03b3e0d93046 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On.png - Importer: PreviewImporter
+Importing 'GUID: db2b3974aac164565bda03b3e0d93046 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver On.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db2b3974aac164565bda03b3e0d93046' -> (Import Result ID: '101faba6d20a87060e0e07dc568415b8') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47abec75c6d4f8c8fd9f0f081d1b1af4 DependenciesID=0921af414dd05b3bb3f4d6811e87b36f StaticDependenciesID=77bf6a5f94b0108f97d0839117128020 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:04.5852899Z
+  Time since last request: 0.0673617 seconds.
+  importAddress: GUID: 31d22d44ff25f4a5c95ac4842b5fb74f - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver.png - Importer: PreviewImporter
+Importing 'GUID: 31d22d44ff25f4a5c95ac4842b5fb74f - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteResolver.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31d22d44ff25f4a5c95ac4842b5fb74f' -> (Import Result ID: '784353cbdc1436fe7e07efc23a6456b9') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d09731522d2769ba7384357cdef0b4d DependenciesID=44cc008d5a70dc19a0933b8d03c0f409 StaticDependenciesID=346311e9f9f1d93aab2172e186fef7d4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:05.0168081Z
+  Time since last request: 0.4060236 seconds.
+  importAddress: GUID: 3e3d41c162ad74767b66168d4d94b99c - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar@32.png - Importer: PreviewImporter
+Importing 'GUID: 3e3d41c162ad74767b66168d4d94b99c - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar@32.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e3d41c162ad74767b66168d4d94b99c' -> (Import Result ID: '4d346794a27e75206f5b26e882426658') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ee0a38f53c5c106b26a5b9b5cf250a1 DependenciesID=5324eb8cdca4e1f734b7c1412af9870e StaticDependenciesID=14dde6dbb33af2a35882a8c0d8c99a5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:05.0620823Z
+  Time since last request: 0.0251934 seconds.
+  importAddress: GUID: e2c573f07f6d7471d9cad8cb2a5fece0 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar On@128.png - Importer: PreviewImporter
+Importing 'GUID: e2c573f07f6d7471d9cad8cb2a5fece0 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar On@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e2c573f07f6d7471d9cad8cb2a5fece0' -> (Import Result ID: '77f823f581acfea9739360f4fc84b1d6') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76a5b02453dee41c84803d893cb9ea76 DependenciesID=b2c99d4201b04b5ba60a909f633cca1a StaticDependenciesID=801dd0410548f7c392b683e823680b32 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:05.435648Z
+  Time since last request: 0.348577 seconds.
+  importAddress: GUID: d1c6278de296d42b6a5c6330b16ab729 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager@128.png - Importer: PreviewImporter
+Importing 'GUID: d1c6278de296d42b6a5c6330b16ab729 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d1c6278de296d42b6a5c6330b16ab729' -> (Import Result ID: '58faffa9a184aa019723c08afa02c589') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=559ccfaa8831c261bc097110042e8ae6 DependenciesID=a981187457239247a2a878513abe7804 StaticDependenciesID=bbfcdc755e4ce952d3b72113d82417e2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:05.4978994Z
+  Time since last request: 0.0322727 seconds.
+  importAddress: GUID: 57f8befb92b364ca1bcae0f34c27e2d3 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@128.png - Importer: PreviewImporter
+Importing 'GUID: 57f8befb92b364ca1bcae0f34c27e2d3 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 57f8befb92b364ca1bcae0f34c27e2d3' -> (Import Result ID: 'dfbb1027c55ccda9b15f77e08d61f7c1') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38a5cad90703453dd141ca7de0268f46 DependenciesID=7cced0b58e4d160de88d7dbb85bb39a9 StaticDependenciesID=0458d8a121be07940288ed6107eecd2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:05.893641Z
+  Time since last request: 0.3646114 seconds.
+  importAddress: GUID: 5c6d7a5595d5b4713980d6a92eb6fced - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@32.png - Importer: PreviewImporter
+Importing 'GUID: 5c6d7a5595d5b4713980d6a92eb6fced - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@32.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c6d7a5595d5b4713980d6a92eb6fced' -> (Import Result ID: 'a1c19303e52b77468f5050d7c26ada1a') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99df4a8205f4648fdf5ccac078260988 DependenciesID=4a36807401591490137e7d8e6b936916 StaticDependenciesID=dd4a3d467b1f482449c00a5d9c7e20d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:06.2415539Z
+  Time since last request: 0.3255244 seconds.
+  importAddress: GUID: fad537f7b1df74e869915bbab4356a0f - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary On@32.png - Importer: PreviewImporter
+Importing 'GUID: fad537f7b1df74e869915bbab4356a0f - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary On@32.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fad537f7b1df74e869915bbab4356a0f' -> (Import Result ID: '122892ae9b4b813249705f12402e0a60') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75256c691939a56d8c17a65ae5eec50c DependenciesID=e80bc025d2c915f8e9427f946accc261 StaticDependenciesID=380e405d61cef29758a7e84c23bd7ccd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:06.292635Z
+  Time since last request: 0.0271062 seconds.
+  importAddress: GUID: 6dfa8a4e449dd46479d1788637b70811 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKManager@128.png - Importer: PreviewImporter
+Importing 'GUID: 6dfa8a4e449dd46479d1788637b70811 - Path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKManager@128.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6dfa8a4e449dd46479d1788637b70811' -> (Import Result ID: '1ccb0c9a49e8aa6ebf610c958a1690d5') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=078bc26b0083e34484a68e17da35eb2c DependenciesID=e722798af4073367856928cf6a430e40 StaticDependenciesID=136bc72f9a6d66fc9b16b3ae28438cbb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-07T13:22:11.0068126Z
+  Time since last request: 4.6919557 seconds.
+  importAddress: GUID: 27fcf2ee0895b467f980e5c3c57b655c - Path: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GameObjectBrush/GameObjectBrush@4x.png - Importer: PreviewImporter
+Importing 'GUID: 27fcf2ee0895b467f980e5c3c57b655c - Path: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GameObjectBrush/GameObjectBrush@4x.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 27fcf2ee0895b467f980e5c3c57b655c' -> (Import Result ID: '532f828251cdf8a412a1422154802b07') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=576af109b306453dcf19355e8a5fb0e7 DependenciesID=c75c129ab613c3efd8dc8814b3f6e744 StaticDependenciesID=22eed4b9212ed98ce4780e7401618ecd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
