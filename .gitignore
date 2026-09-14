@@ -5,14 +5,13 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
-.utmp/
-game/Library/
-game/Temp/
-game/Obj/
-game/Build/
-game/Builds/
-game/Logs/
-game/UserSettings/
+/game/Library/
+/game/Temp/
+/game/Obj/
+/game/Build/
+/game/Builds/
+/game/Logs/
+/game/UserSettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
