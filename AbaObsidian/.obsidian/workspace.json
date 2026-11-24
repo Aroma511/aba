@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/Betreuungsgespräch.md",
+                "file": "00_Organisation/Aufgabenverteilung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Betreuungsgespräch"
+              "title": "Aufgabenverteilung"
             }
           }
         ]
@@ -187,8 +187,26 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "3315e0b81dbd21cf",
+  "active": "74533e10e304b0e9",
   "lastOpenFiles": [
-    "_Templates/Devlog.md"
+    "00_Organisation/Aufgabenverteilung.md",
+    "Unbenannt.md",
+    "00_Organisation/Zeitplan & Meilensteine.md",
+    "00_Organisation/Anforderungen.md",
+    "05_Assets/Stilguide.md",
+    "05_Assets/Asset-Liste.md",
+    "_Dashboard.md",
+    "README.md",
+    "01_Thema/Gliederung.md",
+    "03_Game-Design/GDD.md",
+    "01_Thema/_Info.md",
+    "00_/_Info.md",
+    "02_Quellen/Tutorials & Doku/_Info.md",
+    "02_Quellen/Literatur/_Info.md",
+    "_Attachments/_Info.md",
+    "_Templates/Mechanik.md",
+    "_Templates/Level.md",
+    "_Templates/Devlog.md",
+    "_Templates/Betreuungsgespräch.md"
   ]
 }

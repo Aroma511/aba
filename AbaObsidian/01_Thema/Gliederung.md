@@ -1,8 +1,15 @@
-# Gliederung
+Inhalt 
 
-1. [[01_Einleitung]]
-2. [[02_Theorie]]
-3. [[03_Umsetzung]]
-4. [[04_Evaluation & Testing]]
-5. [[05_Diskussion & Reflexion]]
-6. [[06_Fazit]]
+PlattformEngine
+	Unity
+	Git
+	Github
+Code
+	C#
+	Code Struktur
+	sinnvoller Code Aufbau bzw Reinfolge
+Spieeentwicklung
+	Funktionen 
+	Storyfinding
+	Pixelart/Sprites
+	Sinnvoller Spielaufbau
